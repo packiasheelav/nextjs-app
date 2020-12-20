@@ -45,13 +45,15 @@ const globalStyles = css.global`
   }
 
   body {
-    font-family: "Source Sans Pro", "system-ui", "sans-serif";
+    font-family: 'Source Sans Pro', 'system-ui', 'sans-serif';
     font-size: 15px;
     font-weight: 400;
     line-height: 1.2rem;
   }
 
-  html, body, #__next {
+  html,
+  body,
+  #__next {
     height: 100%;
   }
 

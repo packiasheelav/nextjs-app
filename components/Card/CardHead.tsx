@@ -13,7 +13,7 @@ const CardHead: React.SFC<ICardProps> = ({ title }) => (
   <div className="Card__Head Card__Padding">
     <style jsx>{commonCardStyles}</style>
     <style jsx>{cardHeadStyles}</style>
-    
+
     <h2>{title} </h2>
   </div>
 );

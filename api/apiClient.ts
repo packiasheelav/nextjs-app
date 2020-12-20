@@ -27,7 +27,7 @@ async function request(
       username: UPCLOUD_USERNAME,
       password: UPCLOUD_PASSWORD,
     },
-    headers: {'X-Requested-With': 'XMLHttpRequest'},
+    headers: { 'X-Requested-With': 'XMLHttpRequest' },
     url: `${API_URL}${config.url || ''}`,
   };
 

@@ -5,19 +5,14 @@
     "alwaysStrict": true,
     "baseUrl": "./",
     "jsx": "preserve",
-    "lib": [
-      "dom",
-      "es2017"
-    ],
+    "lib": ["dom", "es2017"],
     "module": "esnext",
     "moduleResolution": "node",
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "paths": {
-      "upcloud": [
-        "./@types/upcloud.d.ts"
-      ]
+      "upcloud": ["./@types/upcloud.d.ts"]
     },
     "preserveConstEnums": true,
     "removeComments": false,
@@ -30,12 +25,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "include": [
-    "next-env.d.ts",
-    "**/*.ts",
-    "**/*.tsx"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
 }

@@ -13,7 +13,7 @@ export interface IStorage {
 }
 
 export interface IData {
-  data: any,
-  name: string,
-  statusCode: number
+  data: any;
+  name: string;
+  statusCode: number;
 }

@@ -6,8 +6,8 @@ const styles = css`
   .app {
     background: #f9f9f9;
     min-height: 100%;
-   overflow: hidden;
-   // background: #f1f1f1;
+    overflow: hidden;
+    // background: #f1f1f1;
   }
 
   .app-header {
@@ -61,57 +61,58 @@ const styles = css`
     }
   }
 
-
   .sidebar {
-    
-  margin: 0;
-  padding: 0;
-  display:flex;
-  background-color: #f1f1f1;
-  height: 100%;
-  overflow: auto;
-}
-
-.sidebar a {
-  margin-left:2rem;
-  display: block;
-  padding: 16px;
-  text-decoration: none;
-}
- 
-.sidebar a.active {
-  background-color: color(mainAccentColor);
-  color: white;
-}
-
-.sidebar a:hover:not(.active) {
-  background-color: #555;
-  color: white;
-}
-
-div.content {
-  margin-left: 200px;
-  padding: 1px 16px;
-  height: 1000px;
-}
-
-@media screen and (max-width: 700px) {
-  .sidebar {
-    width: 100%;
-    height: auto;
-    position: relative;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #f1f1f1;
+    height: 100%;
+    overflow: auto;
   }
-  .sidebar a {float: left;}
-  div.content {margin-left: 0;}
-}
 
-@media screen and (max-width: 400px) {
   .sidebar a {
-    text-align: center;
-    float: none;
+    margin-left: 2rem;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
   }
-}
 
+  .sidebar a.active {
+    background-color: color(mainAccentColor);
+    color: white;
+  }
+
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {
+      float: left;
+    }
+    div.content {
+      margin-left: 0;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
 `;
 
 export default styles;

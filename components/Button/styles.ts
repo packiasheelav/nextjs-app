@@ -16,7 +16,7 @@ export default css`
     font-size: rem(14px);
     letter-spacing: rem(0.6px);
     height: rem(3px);
-    width:rem(3px);
+    width: rem(3px);
     margin: 0;
     padding: rem(6px) rem(6px);
     position: relative;
@@ -42,14 +42,14 @@ export default css`
       &:focus,
       &:active {
         background-color: color(black);
-        
+
         color: color(white);
       }
     }
 
     &--secondary {
       border-color: accent(alert);
-      background:accent(alert);
+      background: accent(alert);
       color: color(black);
 
       &:hover {

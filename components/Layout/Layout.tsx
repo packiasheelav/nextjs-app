@@ -32,7 +32,7 @@ class Layout extends React.Component {
           />
           <nav className="app-nav">
             <ul className="menu">
-            <li>
+              <li>
                 <Link href="/">
                   <a>About</a>
                 </Link>

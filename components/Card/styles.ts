@@ -12,9 +12,9 @@ const cardStyles = css`
   @import 'color';
 
   .Card {
-    width:100%;
+    width: 100%;
     background-color: color(white);
-    border: .1rem solid color(grey, card-border);
+    border: 0.1rem solid color(grey, card-border);
     box-sizing: border-box;
   }
 `;

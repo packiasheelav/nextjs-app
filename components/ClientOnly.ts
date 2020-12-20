@@ -11,10 +11,7 @@ interface IClientOnlyState {
 /**
  * Renders children only on client (browser), skipping server-side rendering.
  */
-class ClientOnly extends React.Component<
-  IClientOnlyProps,
-  IClientOnlyState
-> {
+class ClientOnly extends React.Component<IClientOnlyProps, IClientOnlyState> {
   constructor(props: IClientOnlyProps) {
     super(props);
 

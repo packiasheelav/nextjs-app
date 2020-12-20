@@ -9,7 +9,7 @@ const CardHead: React.SFC = ({ children }) => (
     <style jsx>{commonCardStyles}</style>
     <style jsx>{cardSectionStyles}</style>
     {children}
-    <hr style={{margin:0}}/>
+    <hr style={{ margin: 0 }} />
   </div>
 );
 
